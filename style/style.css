@@ -1,0 +1,39 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'cwTeXHei';
+    font-style: normal;
+    font-weight: 500;
+    
+    src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
+    src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot?#iefix) format('embedded-opentype'), url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff2) format('woff2'), url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff) format('woff'), url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
+}
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+
+*{font-family:'cwTeXHei','Noto Sans TC', sans-serif;}
+
+*, *::after, *::before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box;  box-sizing: border-box;}
+
+html, body { height: 100%;background-color: #def6f0;font-size: 1.6rem; font-family:'cwTeXHei','Noto Sans TC', sans-serif; color: #999;}
+html { font-size: 62.5%;}
+
+@media only screen and (min-width: 1048px) {
+  body {  overflow-x: hidden; }
+}
+
+a {color: #666; text-decoration: none;}
+.comtext strong{font-weight: bold;font-size: 18px;line-height: 24px;margin: 20px 0;}
+
+.cd-fixed-background { position: relative; padding: 3em 0;  background-repeat: no-repeat;  background-size: cover; background-position: center right;background-attachment:fixed;margin: 0;}
+
+
+#home { background-image: url("../../imgs/body/marketing/V_max_bg.jpg"); height:100%; }
+#home .contentbg{background: url('../../imgs/body/marketing/V-max_p.png'); width: 1000px;height: 800px;margin: 10px auto;position:relative;}
+.proInfo{position: absolute;top: 140px;left: 265px;width: 400px;padding: 0 50px;}
+.userReg{background: url(../../imgs/body/marketing/V-max_UserReg.png) no-repeat center center;width: 500px;height: 390px;position: relative;top: 320px;left:240px;}
+.reginfo{font-size: 11px;position: relative;top:75px;width: 500px;padding: 0 50px;text-align: center;vertical-align: middle;}
+.reginfo span{color: red;font-size: 16px;}
+.myforms{font-size: 11px;position: relative;top: 80px;}
+.myforms p{margin: 0;}
+.myforms .box{font-size: 13px;height: 25px;line-height: 20px;margin:5px;width:300px;}
+.myforms h5{line-height: 16px;font-size: 12px;margin-bottom: 5px;margin-top: 5px;}
+.myforms .P_info{font-size: 8px;line-height: 14px;margin: 0 atuo;width: 500px;padding: 0 30px 10px;}
